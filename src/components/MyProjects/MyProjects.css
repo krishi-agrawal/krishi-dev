@@ -3,12 +3,13 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 20px;
+
 }
 
 .myprojects-h1{
     margin-left: 150px;
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 20%;
     color: white;
 }
 
