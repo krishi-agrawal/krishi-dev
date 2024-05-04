@@ -1,0 +1,42 @@
+.__skills-section{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    position: relative;
+}
+
+.skills-h1{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: 15%;
+}
+
+.skills-backglow{
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.skills-backglow img{
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .__skills-section{
+        margin-bottom: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .__skills-section{
+        margin-bottom: 800px;
+    }
+    .skills-h1{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .__skills-section{
+        margin-bottom: 1000px;
+    }
+}

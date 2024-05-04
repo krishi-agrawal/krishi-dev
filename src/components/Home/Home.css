@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #120720;
+}
+
+.left-backglow{
+    position: absolute;
+    left: 0;
+}
+
+.social-icons{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.__home-section{
+    background-color: #120720;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-backglow{
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.right-backglow img {
+    height: 100%;
+}
+
+h1{
+    
+    font-size: 6.5em;
+    line-height: 6rem;
+    letter-spacing: -1px;
+    font-weight: 700
+}
+
+.desc{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+h2{
+    /* display: block; */
+}
+
+.Typewriter{
+    margin-left: 20px;
+}
+
+.mouse{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mouse > svg{
+    height: 60px;
+    width: 60px;
+}
+@media screen and (max-width: 1000px){
+    .social-icons{
+        top: 10%;
+        left: 40%;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 800px) {
+    html{
+        margin: 0;
+    }
+    .__home-section{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .centre-text{
+        padding: 30px;
+    }
+    .right-backglow{
+        top: 0;
+        left: 30%;
+        position: absolute;
+    }
+    /* .right-backglow img{
+        position: absolute;
+        left: 0;
+    } */
+    .left-backglow{
+        display: none;
+    }
+    .social-icons{
+        top: 0;
+        left: none;
+        flex-direction: row;
+    }
+}

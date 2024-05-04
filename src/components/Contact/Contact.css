@@ -1,0 +1,154 @@
+.__contact-section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.__contact-section h1 {
+    margin-left: 150px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.contact-backglow {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.contact-backglow img {
+    height: 100%;
+}
+
+.contact-main {
+    display: flex;
+    gap: 12%;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input[type="text"],
+textarea {
+    width: 400px;
+    /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    /* Transparent background */
+    color: white;
+    /* Text color */
+    font-size: 16px;
+    /* Adjust font size as needed */
+}
+
+/* Textarea styling */
+textarea {
+    resize: none;
+    /* Prevent resizing */
+    height: 150px;
+    /* Adjust height as needed */
+}
+
+/* Button styling */
+.submit-button {
+    width: 100%;
+    /* Adjust width as needed */
+    background-color: #007bff;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Map styling */
+.map {
+
+    border-radius: 10px;
+    /* Border radius */
+
+}
+
+.map iframe {
+    width: 40.9rem;
+    height: 30.5rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-main {
+        gap: 5%;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 300px;
+    }
+
+    .map iframe {
+        width: 25.9rem;
+        height: 30.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    input[type="text"],
+    textarea {
+        width: 200px;
+    }
+
+    .map iframe {
+        width: 25.9rem;
+        height: 20.5rem;
+    }
+
+    .contact-icons svg{
+       height: 40px;
+       width: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-main {
+        flex-direction: column;
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+    }
+    form{
+        padding: 30px;
+    }
+    .map{
+        padding: 30px;
+    }
+
+    .map iframe{
+        width: 100%;;
+    }
+}

@@ -1,0 +1,130 @@
+.__about-section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: white;
+    /* margin-bottom: 200px; */
+}
+
+.about-backglow{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.about-main{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.about-h1{
+    margin-bottom: 5%;
+    margin-left: 150px;
+}
+
+.about-text p{
+    font-size: 1.5rem;
+}
+
+.about-img{
+    background-color: white;
+    border-radius: 50%;
+    height: 340px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img > img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 88%;
+    width: 88%;
+}
+
+.red{
+    display: inline;
+    color: rgb(179, 81, 144);
+}
+
+@media screen and (max-width: 1000px){
+    .__about-section{
+        margin-bottom: 150px;
+        overflow-y: hidden;
+    }
+    .about-text p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .__about-section{
+        margin-bottom: 400px;
+    }
+    .about-main{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .about-h1{
+        margin-left: 50px;
+        margin-bottom: 20%;
+    }
+    .about-img{
+        height: 300px;
+        width: 300px;
+    }
+    .about-text p{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-backglow{
+        display: none;
+    }
+    .__about-section{
+        margin: 0;
+    }
+    .about-main{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .about-h1{
+        margin-bottom: 300px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    html{
+        margin: 0;
+    }
+    .about-main{
+        flex-direction: column;
+    }
+    .about-backglow{
+        display: none;
+    }
+    .__about-section{
+        margin: 0;
+    }
+    .about-img{
+        height: 200px;
+        width: 200px;
+    }
+}
