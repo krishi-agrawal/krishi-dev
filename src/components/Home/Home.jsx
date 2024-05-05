@@ -59,7 +59,7 @@ const Home = () => {
                     <h2>a </h2>
                     <Typewriter
                         options={{
-                            strings: ['Full Stack Developer', 'Programmer', 'Bloackchain Enthusiast', 'Graphic Designer'],
+                            strings: ['Full Stack Developer', 'Programmer', 'Blockchain Enthusiast', 'Graphic Designer'],
                             autoStart: true,
                             loop: true,
                         }}
