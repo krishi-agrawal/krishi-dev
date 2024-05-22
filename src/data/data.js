@@ -91,21 +91,25 @@ export const projects = [
     title: 'BlogSpark',
     description: 'Description of Project 1',
     imageUrl: '././blogspark-main.png',
+    githubUrl: 'https://github.com/krishi-agrawal/blogSpark',
   },
   {
     title: 'JointWrite',
     description: 'Description of Project 2',
     imageUrl: '././jointwrite.png',
+    githubUrl: 'https://github.com/krishi-agrawal/JointWrite',
   },
   {
     title: 'VideCall Application',
     description: 'Description of Project 1',
     imageUrl: '././videocall.png',
+    githubUrl: 'https://github.com/krishi-agrawal/video-call-WEBRTC',
   },
   {
     title: 'H&M React App',
     description: 'Description of Project 2',
     imageUrl: '././hnm-main.png',
+    githubUrl: 'https://github.com/krishi-agrawal/shopping-website',
   },
 
 ];
